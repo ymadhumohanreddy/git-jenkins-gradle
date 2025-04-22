@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        gradle 'Gradle 7' // Make sure Jenkins has this tool configured
+        gradle 'Gradle 8.13' // Make sure Jenkins has this tool configured
     }
 
     stages {
